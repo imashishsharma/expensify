@@ -1,0 +1,14 @@
+version: '2'
+services:
+    expensify-app:
+        image: expensify
+        environment:
+            - SPRING_PROFILES_ACTIVE=prod,swagger
+            - SPRING_DATASOURCE_URL=jdbc:mysql://expensify-mysql:3306/expensify?useUnicode=true&characterEncoding=utf8&useSSL=false
+            - JHIPSTER_SLEEP=10 # gives time for the database to boot before the application
+        ports:
+            - 8080:8080
+    expensify-mysql:
+        extends:
+            file: mysql.yml
+            service: expensify-mysql
