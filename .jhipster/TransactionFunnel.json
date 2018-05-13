@@ -1,0 +1,28 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "transactionCategory",
+            "otherEntityName": "transactionCategory",
+            "relationshipType": "one-to-one",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "transactionFunnel"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "percentage",
+            "fieldType": "Double",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20180512105755",
+    "dto": "mapstruct",
+    "service": "serviceImpl",
+    "entityTableName": "transaction_funnel",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

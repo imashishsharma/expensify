@@ -1,0 +1,23 @@
+
+{
+    "expensifyApp": {
+        "transactionFunnel" : {
+            "home": {
+                "title": "Transaction Funnels",
+                "createLabel": "Create a new Transaction Funnel",
+                "createOrEditLabel": "Create or edit a Transaction Funnel"
+            },
+            "created": "A new Transaction Funnel is created with identifier {{ param }}",
+            "updated": "A Transaction Funnel is updated with identifier {{ param }}",
+            "deleted": "A Transaction Funnel is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Transaction Funnel {{ id }}?"
+            },
+            "detail": {
+                "title": "Transaction Funnel"
+            },
+            "percentage": "Percentage",
+            "transactionCategory": "Transaction Category"
+        }
+    }
+}
