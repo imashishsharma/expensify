@@ -7,6 +7,9 @@
             "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
             "entities": {
                 "main": "Entities",
+                "transactionCategory": "Transaction Category",
+                "transactionFunnel": "Transaction Funnel",
+                "transaction": "Transaction",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {
@@ -22,6 +25,7 @@
                 "main": "Administration",
                 "userManagement": "User management",
                 "tracker": "User tracker",
+                "transaction": "Money Management",
                 "metrics": "Metrics",
                 "health": "Health",
                 "configuration": "Configuration",

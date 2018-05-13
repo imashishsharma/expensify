@@ -45,6 +45,9 @@ public class CacheConfiguration {
             cm.createCache(com.ashish.expensify.domain.PersistentToken.class.getName(), jcacheConfiguration);
             cm.createCache(com.ashish.expensify.domain.User.class.getName() + ".persistentTokens", jcacheConfiguration);
             cm.createCache(com.ashish.expensify.domain.SocialUserConnection.class.getName(), jcacheConfiguration);
+            cm.createCache(com.ashish.expensify.domain.TransactionCategory.class.getName(), jcacheConfiguration);
+            cm.createCache(com.ashish.expensify.domain.TransactionFunnel.class.getName(), jcacheConfiguration);
+            cm.createCache(com.ashish.expensify.domain.Transaction.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
